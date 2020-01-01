@@ -44,5 +44,8 @@
               "prismjs/themes/prism-tomorrow.css"
             ]
         }
+    },
+    "styles": {
+        "website": "styles/website.css"
     }
 }
