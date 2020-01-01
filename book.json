@@ -1,0 +1,48 @@
+{
+    "author": "yancy",
+    "title": "Yancy' Book",
+    "description": "点滴积累，汇聚成海",
+    "language" : "zh-hans",
+    "plugins": [
+        "hide-element",
+        "chapter-fold",
+        "expandable-chapters-small",
+        "code",
+        "splitter",
+        "anchor-navigation-ex",
+        "pageview-count",
+        "tbfed-pagefooter",
+        "lightbox",
+        "github",
+        "insert-logo",
+        "-lunr", "-search", "search-pro",
+        "-highlight", "prism",
+        "-sharing"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy Yancy 2019",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github": {
+            "url": "https://github.com/hello-yancy/book"
+        },
+        "insert-logo": {
+            "url": "images/logo.png",
+            "style": "background: none; max-height: 30px; min-height: 30px"
+        },
+        "prism": {
+            "css": [
+              "prismjs/themes/prism-tomorrow.css"
+            ]
+        }
+    }
+}

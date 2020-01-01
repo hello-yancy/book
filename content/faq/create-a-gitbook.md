@@ -8,12 +8,12 @@
 
 ## 1.2 安装GitBook
 使用如下命令安装 GitBook 命令行工具：
-```
+```bash
 $ npm install gitbook-cli -g
 ```
 
 输入如下命令，查看 GitBook 版本，验证是否安装成功
-```
+```bash
 $ gitbook -V
 ```
 
@@ -26,7 +26,7 @@ $ gitbook -V
 
 ## 2.2 初始化新书
 创建一个本地目录，将 **book** 仓库克隆到本地，并使用 **gitbook init** 命令初始化
-```
+```bash
 $ mkdir gitbook
 $ cd gitbook
 $ git clone https://github.com/hello-yancy/book
@@ -37,7 +37,7 @@ $ gitbook init
 ## 2.3 预览新书
 使用以下命令会运行一个 web 服务, 通过 http://localhost:4000/ 预览书籍
 
-```
+```bash
 $ gitbook serve
 ```
 
@@ -55,7 +55,7 @@ node_modules
 
 ### 2.4.2 添加**publish.js**文件
 在 **book** 目录下，新建 **publish.js** 文件，并在该文件中，输入如下内容：
-```
+```javascript
 var ghpages = require('gh-pages');
 ghpages.publish('_book', {
   branch: 'gh-pages',
@@ -72,7 +72,7 @@ ghpages.publish('_book', {
 
 ### 2.4.3 上传源码
 将 **book** 目录下的所有文件，作第一次提交，提交到 **master** 分支，如下：
-```
+```bash
 $ git add SUMMARY.md publish.js .gitignore
 $ git commit -m "first commit"
 $ git push origin master
@@ -92,13 +92,13 @@ $ git push origin master
 
 
 在 2.4.2 章节已经提到了，将使用 **publish.js** 脚本来发布 GitBook，由于该脚本使用了[gh-pages组件包](https://www.npmjs.com/package/gh-pages)，因此先要安装该组建包，命令如下：
-```
+```bash
 $ npm install gh-pages --save-dev
 ```
 
 安装成功之后(仅需安装一次)，使用如下命令发布 GitBook
 
-```
+```bash
 $ node publish.js
 ```
 
@@ -109,4 +109,17 @@ $ node publish.js
 ![2](./create-a-gitbook/2.png)
 
 # 3. 配置新书
+原生的 GitBook 样式比较单一，美观度和功能欠佳，可以通过相关插件进行拓展。在 **book** 目录下，创建 book.json 文件：
+```
+
+```
+
+
+
+# 4. 参考
+
+1. [GitBook插件整理](https://www.cnblogs.com/mingyue5826/p/10307051.html)
+2. [gitbook常用的插件](https://segmentfault.com/a/1190000019806829?utm_source=tag-newest)
+3. [gitbook安装与使用](https://blog.csdn.net/fghsfeyhdf/article/details/88403548)
+
 
