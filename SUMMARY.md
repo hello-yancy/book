@@ -10,7 +10,8 @@
     * [MongoDB](./content/development/database/mongodb/readme.md)
     * [Redis](./content/development/database/redis/readme.md)
 * [常用软件](./content/software/readme.md)
+  * [GitBook](./content/software/create-a-gitbook.md)
 * [FAQ](./content/faq/readme.md)
-  * [创建GitBook](./content/faq/create-a-gitbook.md)
+
 
 
