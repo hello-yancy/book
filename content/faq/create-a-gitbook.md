@@ -4,7 +4,7 @@
 # 1. 准备工作
 
 ## 1.1 安装 Node.js
-
+参考[安装 Node.js](../development/javascript/node.js/install-nodejs.md)
 
 ## 1.2 安装 GitBook
 使用如下命令安装 GitBook 命令行工具：
