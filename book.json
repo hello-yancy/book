@@ -40,9 +40,7 @@
             "style": "background: none; max-height: 30px; min-height: 30px"
         },
         "prism": {
-            "css": [
-              "prismjs/themes/prism-tomorrow.css"
-            ]
+            "css": ["prismjs/themes/prism-tomorrow.css"]
         }
     },
     "styles": {
