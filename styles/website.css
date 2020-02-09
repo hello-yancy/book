@@ -1,0 +1,6 @@
+.book .book-body .page-wrapper .page-inner img {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 3px;
+  border: 1px solid #ddd;
+}
