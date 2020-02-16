@@ -16,6 +16,7 @@
     * [MongoDB](./content/development/database/mongodb/readme.md)
       * [安装MongoDB](./content/development/database/mongodb/install-mongodb.md)
     * [Cassandra](./content/development/database/cassandra/readme.md)
+      * [安装Cassandra](./content/development/database/cassandra/install-cassandra.md)
     * [Redis](./content/development/database/redis/readme.md)
 
 * [常用软件](./content/software/readme.md)

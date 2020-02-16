@@ -35,6 +35,6 @@ $ cassandra
 # 2. Windows下安装Cassandra
 
 ## 2.1 下载并安装
-从[Node.js](https://nodejs.org/en/)的官网，下载安装包node-v10.16.0-x64.msi，双击并安装
+
 
 注：验证方法参考Linux下的方法
