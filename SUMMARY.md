@@ -20,6 +20,8 @@
 
 * [常用软件](./content/software/readme.md)
   * [GitBook](./content/software/create-a-gitbook.md)
+  * [JetBrains](./content/software/jetbrains/readme.md)
+    * [IntelliJ IDEA](./content/software/jetbrains/install-idea.md)
 
 * [FAQ](./content/faq/readme.md)
 
