@@ -6,6 +6,7 @@
   * [JavaScript](./content/development/javascript/readme.md)
     * [Node.js](./content/development/javascript/node.js/readme.md)
       * [安装Node.js](./content/development/javascript/node.js/install-nodejs.md)
+      * [NPM常用命令](./content/development/javascript/node.js/npm-command.md)
     * [React](./content/development/javascript/react/readme.md)
     * [Vue](./content/development/javascript/vue/readme.md)
 
