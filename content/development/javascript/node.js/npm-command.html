@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Node.js · Yancy' Book</title>
+        <title>NPM常用命令 · Yancy' Book</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -85,10 +85,10 @@
     <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="install-nodejs.html" />
+    <link rel="next" href="../react/readme.html" />
     
     
-    <link rel="prev" href="../readme.html" />
+    <link rel="prev" href="install-nodejs.html" />
     
 
     </head>
@@ -158,7 +158,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.2.1.1" data-path="readme.html">
+        <li class="chapter " data-level="1.2.1.1" data-path="readme.html">
             
                 <a href="readme.html">
             
@@ -185,7 +185,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.1.1.2" data-path="npm-command.html">
+        <li class="chapter active" data-level="1.2.1.1.2" data-path="npm-command.html">
             
                 <a href="npm-command.html">
             
@@ -551,7 +551,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../../.." >Node.js</a>
+        <a href="../../../.." >NPM常用命令</a>
     </h1>
 </div>
 
@@ -566,7 +566,64 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <footer class="page-footer"><span class="copyright">Copyright &#xA9; Yancy 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x7AE0;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#1-&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x5217;&#x8868;"><b></b>1. &#x5E38;&#x7528;&#x547D;&#x4EE4;&#x5217;&#x8868;</a></li><li><span class="title-icon "></span><a href="#2-&#x53C2;&#x8003;&#x6587;&#x6863;"><b></b>2. &#x53C2;&#x8003;&#x6587;&#x6863;</a></li></ul></div><a href="#1-&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x5217;&#x8868;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="1-&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x5217;&#x8868;"><a name="1-&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x5217;&#x8868;" class="anchor-navigation-ex-anchor" href="#1-&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x5217;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x5E38;&#x7528;&#x547D;&#x4EE4;&#x5217;&#x8868;</h1>
+<table>
+<thead>
+<tr>
+<th>&#x547D;&#x4EE4;</th>
+<th>&#x683C;&#x5F0F;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x67E5;&#x8BE2;&#x7248;&#x672C;</td>
+<td>npm -v</td>
+<td>--</td>
+</tr>
+<tr>
+<td>&#x5B89;&#x88C5;&#x6A21;&#x5757;&#xFF08;&#x672C;&#x5730;&#xFF09;</td>
+<td>npm install &lt;Module Name&gt;</td>
+<td>1.&#x5C06;&#x5B89;&#x88C5;&#x5305;&#x653E;&#x5728;./node_modules&#x4E0B;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;<br>node_modules&#x76EE;&#x5F55;&#xFF0C;&#x5219;&#x4F1A;&#x5728;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x4E0B;&#x751F;&#x6210;&#x8BE5;&#x76EE;&#x5F55;<br>2.&#x53EF;&#x4EE5;&#x901A;&#x8FC7; require() &#x6765;&#x5F15;&#x5165;&#x672C;&#x5730;&#x5B89;&#x88C5;&#x7684;&#x5305;</td>
+</tr>
+<tr>
+<td>&#x5B89;&#x88C5;&#x6A21;&#x5757;&#xFF08;&#x5168;&#x5C40;&#xFF09;</td>
+<td>npm install &lt;Module Name&gt; -g</td>
+<td>1.&#x5C06;&#x5B89;&#x88C5;&#x5305;&#x653E;&#x5728;/usr/local&#x4E0B;&#xFF0C;&#x6216;&#x8005;Node.js&#x7684;&#x5B89;&#x88C5;&#x76EE;&#x5F55;<br>2.&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5728;&#x547D;&#x4EE4;&#x884C;&#x91CC;&#x4F7F;&#x7528;</td>
+</tr>
+<tr>
+<td>&#x5378;&#x8F7D;&#x6A21;&#x5757;</td>
+<td>npm uninstall &lt;Module Name&gt;</td>
+<td>--</td>
+</tr>
+<tr>
+<td>&#x66F4;&#x65B0;&#x6A21;&#x5757;</td>
+<td>npm update &lt;Module Name&gt;</td>
+<td>--</td>
+</tr>
+<tr>
+<td>&#x641C;&#x7D22;&#x6A21;&#x5757;</td>
+<td>npm search &lt;Module Name&gt;</td>
+<td>--</td>
+</tr>
+<tr>
+<td>&#x67E5;&#x770B;&#x5B89;&#x88C5;&#x4FE1;&#x606F;&#xFF08;&#x5168;&#x5C40;&#xFF09;</td>
+<td>npm list -g</td>
+<td>npm list -g --depth 0</td>
+</tr>
+<tr>
+<td>&#x67E5;&#x770B;&#x5B89;&#x88C5;&#x4FE1;&#x606F;&#xFF08;&#x6A21;&#x5757;&#xFF09;</td>
+<td>npm list &lt;Module Name&gt;</td>
+<td>--</td>
+</tr>
+</tbody>
+</table>
+<h1 id="2-&#x53C2;&#x8003;&#x6587;&#x6863;"><a name="2-&#x53C2;&#x8003;&#x6587;&#x6863;" class="anchor-navigation-ex-anchor" href="#2-&#x53C2;&#x8003;&#x6587;&#x6863;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x53C2;&#x8003;&#x6587;&#x6863;</h1>
+<ol>
+<li><a href="https://www.runoob.com/nodejs/nodejs-npm.html" target="_blank">NPM&#x4F7F;&#x7528;&#x4ECB;&#x7ECD;</a></li>
+<li><a href="https://www.jianshu.com/p/7ea13d57638b" target="_blank">npm&#x5E38;&#x7528;&#x547D;&#x4EE4;</a> </li>
+</ol>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; Yancy 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x7AE0;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
 2020-06-04 22:35:27
 </span></footer>
                                 
@@ -595,12 +652,12 @@
 
             
                 
-                <a href="../readme.html" class="navigation navigation-prev " aria-label="Previous page: JavaScript">
+                <a href="install-nodejs.html" class="navigation navigation-prev " aria-label="Previous page: 安装Node.js">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="install-nodejs.html" class="navigation navigation-next " aria-label="Next page: 安装Node.js">
+                <a href="../react/readme.html" class="navigation navigation-next " aria-label="Next page: React">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -611,7 +668,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Node.js","level":"1.2.1.1","depth":3,"next":{"title":"安装Node.js","level":"1.2.1.1.1","depth":4,"path":"content/development/javascript/node.js/install-nodejs.md","ref":"./content/development/javascript/node.js/install-nodejs.md","articles":[]},"previous":{"title":"JavaScript","level":"1.2.1","depth":2,"path":"content/development/javascript/readme.md","ref":"./content/development/javascript/readme.md","articles":[{"title":"Node.js","level":"1.2.1.1","depth":3,"path":"content/development/javascript/node.js/readme.md","ref":"./content/development/javascript/node.js/readme.md","articles":[{"title":"安装Node.js","level":"1.2.1.1.1","depth":4,"path":"content/development/javascript/node.js/install-nodejs.md","ref":"./content/development/javascript/node.js/install-nodejs.md","articles":[]},{"title":"NPM常用命令","level":"1.2.1.1.2","depth":4,"path":"content/development/javascript/node.js/npm-command.md","ref":"./content/development/javascript/node.js/npm-command.md","articles":[]}]},{"title":"React","level":"1.2.1.2","depth":3,"path":"content/development/javascript/react/readme.md","ref":"./content/development/javascript/react/readme.md","articles":[]},{"title":"Vue","level":"1.2.1.3","depth":3,"path":"content/development/javascript/vue/readme.md","ref":"./content/development/javascript/vue/readme.md","articles":[]}]},"dir":"neutral"},"config":{"plugins":["hide-element","chapter-fold","expandable-chapters-small","code","splitter","anchor-navigation-ex","pageview-count","tbfed-pagefooter","lightbox","github","insert-logo","-lunr","-search","search-pro","-highlight","prism","-sharing","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy Yancy 2019","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/hello-yancy/book"},"livereload":{},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"lightbox":{"jquery":true,"sameUuid":false},"pageview-count":{},"expandable-chapters-small":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 30px; min-height: 30px","url":"https://avatars3.githubusercontent.com/u/14002069?s=400&u=4425f24949565018955adf4c2a38a0873661f5fd&v=4"}},"theme":"default","author":"yancy","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Yancy' Book","language":"zh-hans","gitbook":"*","description":"点滴积累，汇聚成海"},"file":{"path":"content/development/javascript/node.js/readme.md","mtime":"2020-06-04T14:35:27.249Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-07T00:30:19.190Z"},"basePath":"../../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"NPM常用命令","level":"1.2.1.1.2","depth":4,"next":{"title":"React","level":"1.2.1.2","depth":3,"path":"content/development/javascript/react/readme.md","ref":"./content/development/javascript/react/readme.md","articles":[]},"previous":{"title":"安装Node.js","level":"1.2.1.1.1","depth":4,"path":"content/development/javascript/node.js/install-nodejs.md","ref":"./content/development/javascript/node.js/install-nodejs.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-element","chapter-fold","expandable-chapters-small","code","splitter","anchor-navigation-ex","pageview-count","tbfed-pagefooter","lightbox","github","insert-logo","-lunr","-search","search-pro","-highlight","prism","-sharing","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy Yancy 2019","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/hello-yancy/book"},"livereload":{},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"lightbox":{"jquery":true,"sameUuid":false},"pageview-count":{},"expandable-chapters-small":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 30px; min-height: 30px","url":"https://avatars3.githubusercontent.com/u/14002069?s=400&u=4425f24949565018955adf4c2a38a0873661f5fd&v=4"}},"theme":"default","author":"yancy","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Yancy' Book","language":"zh-hans","gitbook":"*","description":"点滴积累，汇聚成海"},"file":{"path":"content/development/javascript/node.js/npm-command.md","mtime":"2020-06-04T14:35:27.249Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-07T00:30:19.190Z"},"basePath":"../../../..","book":{"language":""}});
         });
     </script>
 </div>
