@@ -11,6 +11,8 @@
     * [Vue](./content/development/javascript/vue/readme.md)
 
   * [后端语言](./content/development/backend/readme.md)
+    * [Linux](./content/development/backend/linux/readme.md)
+      * [安装Ubuntu](./content/development/backend/linux/install-ununtu.md)
     * [Java](./content/development/database/java/readme.md)
 
   * [数据库](./content/development/database/readme.md)
@@ -21,10 +23,12 @@
     * [Redis](./content/development/database/redis/readme.md)
 
 * [常用软件](./content/software/readme.md)
+  * [Git](./content/software/git/install-git.md)
   * [GitBook](./content/software/create-a-gitbook.md)
   * [JetBrains](./content/software/jetbrains/readme.md)
     * [IntelliJ IDEA](./content/software/jetbrains/install-idea.md)
-
+  * [Microsoft](./content/software/microsoft/readme.md)
+    * [VS Code](./content/software/microsoft/install-vscode.md)
 * [FAQ](./content/faq/readme.md)
 
 
