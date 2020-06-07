@@ -64,3 +64,32 @@ $ git config --list
 user.name=hello-yancy
 user.email=yujd2000@sina.com
 ```
+
+## 3.2 SSH Key
+
+使用如下命令生成密钥：
+
+```
+$ ssh-keygen -t rsa -C "yujd2000@sina.com"
+```
+
+ 截图如下：
+![1000](./install-git/1000.png)
+
+在  `~/.ssh` 目录下会生成以下两个文件：
+
+```bash
+id_rsa
+id_rsa.pub
+```
+
+打开 github  > Setting > SSH and GPG keys 页面
+
+![1001](./install-git/1001.png)
+
+新建一个 `New SSH Key`,   并将 `~/.ssh/id_rsa.pub` 文件中的内容粘贴进去，完成后截图如下：
+
+![1002](./install-git/1002.png)
+
+# 参考
+[1] [git ssh key配置](https://blog.csdn.net/lqlqlq007/article/details/78983879)

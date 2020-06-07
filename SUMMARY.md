@@ -23,8 +23,10 @@
     * [Redis](./content/development/database/redis/readme.md)
 
 * [常用软件](./content/software/readme.md)
-  * [Git](./content/software/git/install-git.md)
-  * [GitBook](./content/software/create-a-gitbook.md)
+  * [Git](./content/software/git/readme.md)
+    * [安装Git](./content/software/git/install-git.md)
+  * [GitBook](./content/software/gitbook/readme.md)
+    * [安装GitBook](./content/software/gitbook/create-a-gitbook.md)
   * [JetBrains](./content/software/jetbrains/readme.md)
     * [IntelliJ IDEA](./content/software/jetbrains/install-idea.md)
   * [Microsoft](./content/software/microsoft/readme.md)
