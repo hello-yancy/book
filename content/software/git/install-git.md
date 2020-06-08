@@ -91,5 +91,6 @@ id_rsa.pub
 
 ![1002](./install-git/1002.png)
 
-# 参考
+# 4. 参考
+
 [1] [git ssh key配置](https://blog.csdn.net/lqlqlq007/article/details/78983879)
