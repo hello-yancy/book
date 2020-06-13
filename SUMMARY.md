@@ -27,6 +27,7 @@
     * [安装Git](./content/software/git/install-git.md)
   * [GitBook](./content/software/gitbook/readme.md)
     * [安装GitBook](./content/software/gitbook/create-a-gitbook.md)
+    * [GitBook操作手册](./content/software/gitbook/gitbook- manual.md)
   * [JetBrains](./content/software/jetbrains/readme.md)
     * [IntelliJ IDEA](./content/software/jetbrains/install-idea.md)
   * [Microsoft](./content/software/microsoft/readme.md)

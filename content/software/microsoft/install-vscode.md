@@ -8,10 +8,21 @@
 |Windows|VSCodeUserSetup-x64-1.45.1.exe|双击安装|
 |MacOS|VSCode-darwin-stable.zip|-|
 
-# 2. 配置VS Code
+# 2. 安装EditorConfig插件
 
-|名称|路径|设置|
-|--|--|--|
-|显示空格|File > Settings > Editor > General > Appearance|1. Show whitespaces: 勾选|
-|调整字体|File > Settings > Editor > Font|1. Font: Consolas<br/> 2. Size: 14|
-|设置Tab键为4个空格|File > Settings > Editor > Code Style > Java|1. Use tab character: 去勾选 <br/> 2. Indent: 4|
+
+
+# 6. 常用 setting.json 示例
+
+打开 File > Preferences > Settings 界面，输入如下内容
+
+```json
+{
+  "editor.renderControlCharacters" : true,
+  "editor.renderWhitespace" : "all"
+}
+```
+
+# 7. 参考
+
+[1]. [EditorConfig官网](https://editorconfig.org/)

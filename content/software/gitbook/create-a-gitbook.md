@@ -16,6 +16,7 @@ $ npm install gitbook-cli -g
 ```bash
 $ gitbook -V
 ```
+> 注：如果首次执行 gitbook -V 命令，则会自动安装 GitBook 工具
 
 # 2. 创建新书
 
@@ -77,13 +78,15 @@ $ git add SUMMARY.md publish.js .gitignore
 $ git commit -m "first commit"
 $ git push origin master
 ``` 
+
 提交后， **master** 分支下的文件目录结构如下：
-```
-- book
-  |- .gitignore
-  |- README.md
-  |- SUMMARY.md
-  |- publish.js
+
+```bash
+|- book
+|  |- .gitignore
+|  |- README.md
+|  |- SUMMARY.md
+|  |- publish.js
 ```
 
 ## 2.5 发布新书
@@ -113,21 +116,29 @@ $ node publish.js
 原生的 GitBook 样式比较单一，美观度和功能欠佳，可以通过相关插件进行拓展。在 **book** 目录下，创建 book.json 文件，具体内容可以参考[book.json](https://github.com/hello-yancy/book/blob/master/book.json)
 
 ## 3.2 自定义页面样式
-在 **book/styles** 目录下，创建 website.css 文件，用于修改默认样式：
+在 **book/styles** 目录下，创建 website.css 文件，用于修改默认样式。例如，在图片的四周添加边框：
 
+```css
+.book .book-body .page-wrapper .page-inner img {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 3px;
+  border: 1px solid #ddd;
+}
+```
 
 # 4. 
-```
-- book
-  |- book.json
-  |- .gitignore
-  |- README.md
-  |- SUMMARY.md
-  |- publish.js
-  |- styles
-  |- |- website.css
-  |- content
-  |- |- xxx.md
+```bash
+|- book
+|  |- book.json
+|  |- .gitignore
+|  |- README.md
+|  |- SUMMARY.md
+|  |- publish.js
+|  |- styles
+|  |- |- website.css
+|  |- content       
+|  |- |- xxx.md
 ```
 
 # 5. 参考
@@ -135,7 +146,5 @@ $ node publish.js
 1. [GitBook插件整理](https://www.cnblogs.com/mingyue5826/p/10307051.html)
 2. [gitbook常用的插件](https://segmentfault.com/a/1190000019806829?utm_source=tag-newest)
 3. [gitbook安装与使用](https://blog.csdn.net/fghsfeyhdf/article/details/88403548)
-4. [【Markdown】Shell命令高亮显示](https://www.jianshu.com/p/05c41cf1a7c4)
+4. [Markdown中Shell命令高亮显示](https://www.jianshu.com/p/05c41cf1a7c4)
 5. [gitbook中book.json文件详解](https://blog.csdn.net/chenglirui123/article/details/79696113)
-
-
