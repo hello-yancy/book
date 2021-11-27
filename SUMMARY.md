@@ -4,9 +4,7 @@
 
 * [软件开发](./content/development/readme.md)
   * [JavaScript](./content/development/javascript/readme.md)
-    * [Node.js](./content/development/javascript/node.js/readme.md)
-      * [安装Node.js](./content/development/javascript/node.js/install-nodejs.md)
-      * [NPM常用命令](./content/development/javascript/node.js/npm-command.md)
+    
     * [React](./content/development/javascript/react/readme.md)
     * [Vue](./content/development/javascript/vue/readme.md)
 
@@ -32,6 +30,9 @@
     * [IntelliJ IDEA](./content/software/jetbrains/install-idea.md)
   * [Microsoft](./content/software/microsoft/readme.md)
     * [VS Code](./content/software/microsoft/install-vscode.md)
+  * [Node.js](./content/software/node.js/readme.md)
+    * [安装Node.js](./content/software/node.js/install-nodejs.md)
+    * [NPM常用命令](./content/software/node.js/npm-command.md)
 * [FAQ](./content/faq/readme.md)
 
 
