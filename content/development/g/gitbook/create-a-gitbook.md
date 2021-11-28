@@ -148,3 +148,4 @@ $ node publish.js
 3. [gitbook安装与使用](https://blog.csdn.net/fghsfeyhdf/article/details/88403548)
 4. [Markdown中Shell命令高亮显示](https://www.jianshu.com/p/05c41cf1a7c4)
 5. [gitbook中book.json文件详解](https://blog.csdn.net/chenglirui123/article/details/79696113)
+6. [打造完美写作系统：Gitbook+Github Pages+Github Actions](https://www.cnblogs.com/phyger/p/14035937.html)
