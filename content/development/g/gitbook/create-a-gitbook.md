@@ -4,12 +4,12 @@
 # 1. 准备工作
 
 ## 1.1 安装 Node.js
-参考[安装 Node.js](../development/javascript/node.js/install-nodejs.md)
+参考[安装 Node.js](../../n/nodejs/install-nodejs.md)
 
 ## 1.2 安装 GitBook
 使用如下命令安装 GitBook 命令行工具：
 ```bash
-$ npm install gitbook-cli -g
+$ sudo npm install gitbook-cli -g
 ```
 
 输入如下命令，查看 GitBook 版本，验证是否安装成功
