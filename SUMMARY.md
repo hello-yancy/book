@@ -32,5 +32,7 @@
     * [Node.js](./content/development/n/nodejs/readme.md)
       * [安装Node.js](./content/development/n/nodejs/install-nodejs.md)
       * [NPM常用命令](./content/development/n/nodejs/npm-command.md)
+  * [T](./content/development/t/readme.md)
+    * [Typora](./content/development/t/typora/install-typora.md)
   * [V](./content/development/v/readme.md)
     * [VS Code](./content/development/v/vscode/install-vscode.md)
